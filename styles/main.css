@@ -1,0 +1,195 @@
+@import url(normalize.css);
+.container {
+  width: 1920px;
+  height: 998px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto; }
+  .container .header {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    height: 300px;
+    width: 100%;
+    text-align: center; }
+    .container .header__item:nth-child(1) {
+      color: #898f8f;
+      margin: 0; }
+    .container .header__item:nth-child(2) {
+      font-size: 60px;
+      color: #ffcc00;
+      margin: 0; }
+    .container .header__item:nth-child(3) {
+      padding-top: 25px;
+      width: 50%;
+      margin: 0 auto; }
+    .container .header .picture, .container .header .picture1 {
+      position: absolute;
+      top: 230px;
+      left: 720px; }
+    .container .header .picture1 {
+      left: 985px; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #666666; }
+  .main__photo {
+    border: 2px transparent;
+    border-right: 2px solid #ffcc00;
+    width: 45%;
+    height: 565px;
+    padding-top: 90px;
+    text-align: center;
+    position: relative; }
+  .main .photo .img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px; }
+  .main .photo__item {
+    border: 3px solid #ffcc00;
+    z-index: 3; }
+  .main .photo .left {
+    border: 3px solid #ffcc00;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    border-bottom: none;
+    border-right: none; }
+  .main .photo .right {
+    border: 3px solid #ffcc00;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 0;
+    right: 0;
+    border-bottom: none;
+    border-left: none; }
+  .main .photo .bottom-left {
+    border: 3px solid #ffcc00;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    border-top: none;
+    border-right: none; }
+  .main .photo .bottom-right {
+    border: 3px solid #ffcc00;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    right: 0;
+    border-top: none;
+    border-left: none; }
+  .main .photo__item:nth-child(2) {
+    position: absolute;
+    top: 273px;
+    right: 700px;
+    border: 1px transparent; }
+    .main .photo__item:nth-child(2):hover {
+      border: 1px solid #ffcc00;
+      cursor: pointer; }
+  .main .symbols {
+    width: 45%;
+    text-align: center;
+    padding-top: 30px; }
+    .main .symbols__item {
+      padding: 0 3px 0; }
+      .main .symbols__item:hover {
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
+        cursor: pointer; }
+
+.main__info {
+  padding-top: 90px;
+  width: 45%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative; }
+
+.main__item:nth-child(1) {
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  margin: 0; }
+
+.main__item:nth-child(2) {
+  padding-bottom: 25px; }
+
+.main h3 {
+  padding-bottom: 25px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal; }
+
+.main__item:nth-child(6) {
+  font-weight: 400;
+  font-size: 14px;
+  width: 430px;
+  line-height: 24px;
+  margin: 0;
+  padding-bottom: 20px; }
+
+.main__item:nth-child(7) {
+  padding-bottom: 20px; }
+
+.main .arrow {
+  position: absolute;
+  left: 700px;
+  top: 273px;
+  border: 1px transparent;
+  padding: 0; }
+  .main .arrow:hover {
+    border: 1px solid #ffcc00;
+    cursor: pointer; }
+
+.main button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid #ffcc00;
+  width: 120px;
+  height: 22px; }
+  .main button:hover {
+    background-color: #ffcc00; }
+
+.icons__item {
+  padding: 0 3px 20px; }
+  .icons__item:hover {
+    width: 35px;
+    height: 35px;
+    cursor: pointer; }
